@@ -11,7 +11,7 @@ git commit -m "%declation%"
 
 echo;
 echo 将变更情况提交到远程git服务器
-git push origin dev
+git push origin master
 
 echo;
 echo 批处理执行完毕！
