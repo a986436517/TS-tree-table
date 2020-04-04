@@ -1,0 +1,9 @@
+.ant-table-tbody > tr > td{
+  border: 1px solid black;
+}
+
+.APP{
+  width: 60%;
+  display: table;
+  margin: 200px auto;
+}
