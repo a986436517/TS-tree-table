@@ -3,12 +3,17 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 import {Checkbox, Table} from 'antd'
 
 
+interface Data{
+    title:string,
+    key:string,
+    children?:Data[]
+}
 
 interface IProps extends React.Props<any>{
-    data:any[],
+    data:Data[],
     onChange:any,
-    columnWidthArray:any[],
-    checkedKeys:any[],
+    columnWidthArray:string[]|number[],
+    checkedKeys:string[],
     editAble?:boolean
 }
 
